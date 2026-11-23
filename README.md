@@ -1,5 +1,5 @@
 # droidtop-plugin-oldversions
-droidtop source plugin: older versions of free software and freeware (OldVersion.com first, then GitHub/GitLab releases and other archives). Droidtop/tracker#647
+droidtop source plugin: older versions of free software and freeware (OldVersion.com first, then GitHub/GitLab releases and other archives). mytop-project/tracker#647
 
 ## Branches
 
@@ -10,6 +10,6 @@ it a plugin, we have a branch for the actual core code, and releases are a blend
   `plugin-line/lines/<line>/line.json`.
 - **`creation`**: the core code, once there is any (this plugin is a design so far).
 - **`plugin/<line>`**: `creation` at a pinned commit with `plugin-core` written over it, composed by
-  Droidtop/droidtop-platforms `tools/plugin_line.py`. Releases are built from it; nothing is authored there.
+  mytop-project/droidtop-platforms `tools/plugin_line.py`. Releases are built from it; nothing is authored there.
 
 Every change lands through a `ci/` branch. There is no `main`.
